@@ -1,0 +1,19 @@
+<div class="person-list">
+  <div class="row">
+    <div class="col-xs-12 col-md-9">
+      <div class="list-group">
+        <app-show-person *ngFor="let f of myFriends" [friend]=f (giveFriend)=showBanner($event)></app-show-person>
+      </div>
+      <div class="col-xs-12 col-md-9">
+        <div *ngIf="displayBanner" class="alert alert-success box-msg" role="alert">
+          <strong>List Saved!</strong> Your changes has been saved.
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-3 sidebar">
+      <a [routerLink]="['add']" class="btn btn-success sidebar-cta">
+        Add someone
+      </a>
+    </div>
+  </div>
+</div>

@@ -5,7 +5,7 @@
       "firstName": "Michelle",
       "lastName": "Mulroy",
       "gender": "female",
-      "fav": true
+      "fav": false
     },
     {
       "id": 2,
@@ -19,14 +19,49 @@
       "firstName": "Matt",
       "lastName": "Forsythe",
       "gender": "none",
-      "fav": false
+      "fav": true
     },
     {
       "id": 4,
       "firstName": "Nate",
       "lastName": "Schutta",
       "gender": "male",
+      "fav": false
+    },
+    {
+      "id": 5,
+      "firstName": "Ruby",
+      "lastName": "Bossingham",
+      "gender": "female",
       "fav": true
+    },
+    {
+      "id": 6,
+      "firstName": "Adam",
+      "lastName": "Bauer",
+      "gender": "undisclosed",
+      "fav": false
+    },
+    {
+      "id": 8,
+      "firstName": "Jack",
+      "lastName": "Bauer",
+      "gender": "undisclosed",
+      "fav": true
+    },
+    {
+      "id": 9,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "gender": "female",
+      "fav": false
+    },
+    {
+      "id": 10,
+      "firstName": "sef",
+      "lastName": "b",
+      "gender": "male",
+      "fav": false
     }
   ]
 }
